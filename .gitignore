@@ -1,0 +1,22 @@
+# Host build outputs
+avr_emulator
+test_gpio
+test_stack
+test_instructions
+*.o
+*.d
+
+# AVR firmware build outputs
+*.elf
+*.hex
+
+# Debugging and logs
+*.log
+core
+core.*
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
